@@ -1,4 +1,5 @@
-In the terminal, one can simply navigate to the folder 'christofides' and run
-python/python3 christofides.py. This will run the algorithm with the sample data
-in 'paths.txt'. The origin location is in the first line of this file, and the
-other locations are in the remaining lines.
+----------------------
+John Witte and Grace de Benedetti Implementation of Christofides' algorithm
+CS252: Algorithms Final Project
+----------------------
+To run the code, in the terminal, one can navigate to the folder with all files (should be named 'christofides') and run python/python3 christofides.py. This will run the algorithm with the sample data in 'paths.txt'. The origin location is in the first line of this file, and the other locations are in the remaining lines.
