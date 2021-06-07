@@ -1,4 +1,4 @@
-Origin:Seattle
+Origin:Los Angeles
 Seattle,Washington D.C.,2762
 Seattle,New York,2857
 Seattle,Los Angeles,1135

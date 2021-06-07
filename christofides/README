@@ -1,0 +1,4 @@
+In the terminal, one can simply navigate to the folder 'christofides' and run
+python/python3 christofides.py. This will run the algorithm with the sample data
+in 'paths.txt'. The origin location is in the first line of this file, and the
+other locations are in the remaining lines.

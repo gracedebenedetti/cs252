@@ -88,6 +88,9 @@ def minimum_weight_matching(odd_degree_vertices, graph):
 
     -> RETURNS [Edge]
     '''
+    if len(odd_degree_vertices) == 2:
+        return [graph.get_edge(odd_degree_vertices[0], odd_degree_vertices[1])]
+
     # Create a subgraph
     all_edges = graph.get_edges()
     sub_graph = Graph([],[])
@@ -116,7 +119,6 @@ def minimum_weight_matching(odd_degree_vertices, graph):
         if cost < least_cost or least_cost == 0:
             least_cost = cost
             edges = potential_edges
-
     return edges
 
 
@@ -171,6 +173,11 @@ def hamiltonian(edges, origin):
     visited = {}
     order = []
     count = 1
+
+    # Print the origin
+    print('%s. ' % count + origin)
+    count += 1
+    visited[origin] = True
 
     # Look at each edge
     for edge in edges:
